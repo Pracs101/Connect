@@ -1,0 +1,24 @@
+.NavItem {
+  margin: 20px;
+  box-sizing: border-box;
+  /* display: block; */
+}
+
+.NavItem a {
+  color: #FFFFFF;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.righty {
+  float: right;
+}
+
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active { 
+    color: #33ADDD;
+}
